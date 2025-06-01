@@ -7,7 +7,13 @@ https://cs50.harvard.edu/python/psets/1/bank/
 """
 
 def main():
-    pass
+    user_input = input("Greeting: ").strip().lower()
+    if user_input.startswith("hello"):
+        print("$0")
+    elif user_input.startswith("h"):
+        print("$20")
+    else:
+        print("$100")
 
 if __name__ == "__main__":
     main()

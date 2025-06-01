@@ -14,7 +14,18 @@ https://cs50.harvard.edu/python/psets/1/interpreter/
 """
 
 def main():
-    pass
+    user_input = input("Please enter an arithmetic expression: ").strip()
+    x, y, z = user_input.split()
+    x = int(x)
+    z = int(z)
+    if y == "+":
+        print(f"{float(x + z):.1f}")
+    elif y == "-":
+        print(f"{float(x - z):.1f}")
+    elif y == "*":
+        print(f"{float(x * z):.1f}")
+    else:
+        print(f"{float(x / z):.1f}")
 
 if __name__ == "__main__":
     main()

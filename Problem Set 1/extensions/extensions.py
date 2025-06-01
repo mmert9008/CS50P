@@ -14,7 +14,23 @@ https://cs50.harvard.edu/python/psets/1/extensions/
 """
 
 def main():
-    pass
+    user_input = input("Enter a file name: ").strip().lower()
+    if user_input.endswith(".gif"):
+        print("image/gif")
+    elif user_input.endswith(".jpg"):
+        print("image/jpeg")
+    elif user_input.endswith(".jpeg"):
+        print("image/jpeg")
+    elif user_input.endswith(".png"):
+        print("image/png")
+    elif user_input.endswith(".pdf"):
+        print("application/pdf")
+    elif user_input.endswith(".txt"):
+        print("text/plain")
+    elif user_input.endswith(".zip"):
+        print("application/zip")
+    else:
+        print("application/octet-stream")
 
 if __name__ == "__main__":
     main()
