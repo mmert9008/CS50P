@@ -13,10 +13,12 @@ def main():
     print(f"Leave ${tip:.2f}")
 
 def dollars_to_float(d):
-    pass
+    d = d.replace("$", "")
+    return float(d)
 
 def percent_to_float(p):
-    pass
+    p = p.replace("%", "")
+    return float(p) / 100
 
 if __name__ == "__main__":
     main()

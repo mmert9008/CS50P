@@ -5,7 +5,8 @@ https://cs50.harvard.edu/python/psets/0/playback/
 """
 
 def main():
-    pass
+    user_text = input("Please enter text: ")
+    print(user_text.replace(" ", "..."))
 
 if __name__ == "__main__":
     main()

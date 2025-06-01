@@ -5,7 +5,9 @@ https://cs50.harvard.edu/python/psets/0/einstein/
 """
 
 def main():
-    pass
+    m = int(input("Please enter a number representing mass in kilograms: "))
+    c_squared = pow(300000000, 2)
+    print("E =", m * c_squared)
 
 if __name__ == "__main__":
     main()
