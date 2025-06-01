@@ -9,7 +9,20 @@ https://cs50.harvard.edu/python/psets/1/meal/
 """
 
 def main():
-    pass
+    time = input("What time is it? ")
+    converted_time = convert(time)
+    if 7 <= converted_time <= 8:
+        print("breakfast time")
+    elif 12 <= converted_time <= 13:
+        print("lunch time")
+    elif 18 <= converted_time <= 19:
+        print("dinner time")
+    else:
+        return None
+
+def convert(time):
+    hours, minutes = time.split(":")
+    return float(hours) + round((float(minutes) / 60), 2)
 
 if __name__ == "__main__":
     main()
