@@ -9,7 +9,12 @@ https://cs50.harvard.edu/python/psets/2/camel/
 """
 
 def main():
-    pass
+    user_input = input("Enter a name in camelCase: ")
+    print(f"camelCase: {user_input}")
+    for i in user_input:
+        if i.isupper():
+            user_input = user_input.replace(i, "_" + i.lower())
+    print(f"snake_case: {user_input}")
 
 if __name__ == "__main__":
     main()
