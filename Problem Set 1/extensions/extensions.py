@@ -9,6 +9,8 @@ In a file called extensions.py, implement a program that prompts the user for th
 - .zip
 
 If the file's name ends with some other suffix or has no suffix at all, output application/octet-stream instead, which is a common default.
+
+https://cs50.harvard.edu/python/psets/1/extensions/
 """
 
 def main():
