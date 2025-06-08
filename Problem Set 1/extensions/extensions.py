@@ -13,7 +13,7 @@ ends, case-insensitively, in any of these suffixes:
 If the file's name ends with some other suffix or has no suffix at all,
 output application/octet-stream instead, which is a common default.
 
-https://cs50.harvard.edu/python/psets/1/extensions/
+https://cs50.harvard.edu/python/2022/psets/1/extensions/
 """
 
 

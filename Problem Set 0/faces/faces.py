@@ -11,7 +11,7 @@ welcome, but not required, to prompt the user explicitly, as by passing a str
 of your own as an argument to input. Be sure to call main at the bottom of
 your file.
 
-https://cs50.harvard.edu/python/psets/0/faces/
+https://cs50.harvard.edu/python/2022/psets/0/faces/
 """
 
 

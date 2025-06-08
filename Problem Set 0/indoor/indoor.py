@@ -5,7 +5,7 @@ whitespace should be outputted unchanged. You're welcome, but not required,
 to prompt the user explicitly, as by passing a str of your own as an argument
 to input.
 
-https://cs50.harvard.edu/python/psets/0/indoor/
+https://cs50.harvard.edu/python/2022/psets/0/indoor/
 """
 
 

@@ -4,7 +4,7 @@ Great Question of Life, the Universe and Everything, outputting Yes if the
 user inputs 42 or (case-insensitively) forty-two or forty two. Otherwise
 output No.
 
-https://cs50.harvard.edu/python/psets/1/deep/
+https://cs50.harvard.edu/python/2022/psets/1/deep/
 """
 
 

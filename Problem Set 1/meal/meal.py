@@ -17,7 +17,7 @@ corresponding number of hours as a float. For instance, given a time like
 "7:30" (i.e., 7 hours and 30 minutes), convert should return 7.5 (i.e., 7.5
 hours).
 
-https://cs50.harvard.edu/python/psets/1/meal/
+https://cs50.harvard.edu/python/2022/psets/1/meal/
 """
 
 

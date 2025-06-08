@@ -10,6 +10,8 @@ percentage as a float. For instance, given 15% as input, it should return
 0.15.
 
 Assume that the user will input values in the expected formats.
+
+https://cs50.harvard.edu/python/2022/psets/0/tip/
 """
 
 

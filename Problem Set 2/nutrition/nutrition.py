@@ -12,7 +12,7 @@ is also available as text. Capitalization aside, assume that users will input
 fruits exactly as written in the poster (e.g., strawberries, not strawberry).
 Ignore any input that isn't a fruit.
 
-https://cs50.harvard.edu/python/psets/2/nutrition/
+https://cs50.harvard.edu/python/2022/psets/2/nutrition/
 """
 
 

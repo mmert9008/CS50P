@@ -11,7 +11,7 @@ starts with an "h" (but not "hello"), output $20. Otherwise, output $100.
 Ignore any leading whitespace in the user's greeting, and treat the user's
 greeting case-insensitively.
 
-https://cs50.harvard.edu/python/psets/1/bank/
+https://cs50.harvard.edu/python/2022/psets/1/bank/
 """
 
 

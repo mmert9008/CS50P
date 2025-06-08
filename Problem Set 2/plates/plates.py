@@ -18,7 +18,7 @@ requirements and False if it does not. Assume that s will be a str. You're
 welcome to implement additional functions for is_valid to call (e.g., one
 function per requirement).
 
-https://cs50.harvard.edu/python/psets/2/plates/
+https://cs50.harvard.edu/python/2022/psets/2/plates/
 """
 
 

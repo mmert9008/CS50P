@@ -18,7 +18,7 @@ Assume that, if y is /, then z will not be 0.
 Note that, just as python itself is an interpreter for Python, so will your
 interpreter.py be an interpreter for math!
 
-https://cs50.harvard.edu/python/psets/1/interpreter/
+https://cs50.harvard.edu/python/2022/psets/1/interpreter/
 """
 
 
