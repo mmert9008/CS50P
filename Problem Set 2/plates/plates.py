@@ -31,7 +31,27 @@ def main():
 
 
 def is_valid(s):
-    pass
+    if len(s) < 2 or len(s) > 6:
+        return False
+
+    if not s[0].isalpha() or not s[1].isalpha():
+        return False
+
+    for char in s:
+        if not char.isalnum():
+            return False
+
+    found_number = False
+    for i in range(len(s)):
+        if s[i].isdigit():
+            if not found_number:
+                if s[i] == "0":
+                    return False
+                found_number = True
+        elif found_number:
+            return False
+
+    return True
 
 
 if __name__ == "__main__":
