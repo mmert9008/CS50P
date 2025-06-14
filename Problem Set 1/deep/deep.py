@@ -8,7 +8,7 @@ https://cs50.harvard.edu/python/2022/psets/1/deep/
 """
 
 
-def main():
+def main() -> None:
     user_input = (
         input(
             "What is the Answer to the Great Question of Life, the Universe, and Everything? "

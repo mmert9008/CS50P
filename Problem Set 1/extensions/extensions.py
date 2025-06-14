@@ -17,7 +17,7 @@ https://cs50.harvard.edu/python/2022/psets/1/extensions/
 """
 
 
-def main():
+def main() -> None:
     user_input = input("Enter a file name: ").strip().lower()
     if user_input.endswith(".gif"):
         print("image/gif")

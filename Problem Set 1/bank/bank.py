@@ -15,7 +15,7 @@ https://cs50.harvard.edu/python/2022/psets/1/bank/
 """
 
 
-def main():
+def main() -> None:
     user_input = input("Greeting: ").strip().lower()
     if user_input.startswith("hello"):
         print("$0")

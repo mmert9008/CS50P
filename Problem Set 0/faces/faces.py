@@ -15,7 +15,7 @@ https://cs50.harvard.edu/python/2022/psets/0/faces/
 """
 
 
-def main():
+def main() -> None:
     user_text = input('Please enter text and be sure to include ":)" or ":(": ')
     print(user_text.replace(":)", "🙂").replace(":(", "🙁"))
 

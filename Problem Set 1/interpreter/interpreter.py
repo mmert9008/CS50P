@@ -22,7 +22,7 @@ https://cs50.harvard.edu/python/2022/psets/1/interpreter/
 """
 
 
-def main():
+def main() -> None:
     user_input = input("Please enter an arithmetic expression: ").strip()
     x, y, z = user_input.split()
     x = int(x)

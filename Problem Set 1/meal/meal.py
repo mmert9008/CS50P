@@ -21,7 +21,7 @@ https://cs50.harvard.edu/python/2022/psets/1/meal/
 """
 
 
-def main():
+def main() -> None:
     time = input("What time is it? ")
     converted_time = convert(time)
     if 7 <= converted_time <= 8:
@@ -34,7 +34,7 @@ def main():
         return None
 
 
-def convert(time):
+def convert(time) -> float:
     hours, minutes = time.split(":")
     return float(hours) + round((float(minutes) / 60), 2)
 

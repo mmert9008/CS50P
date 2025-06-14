@@ -12,7 +12,7 @@ https://cs50.harvard.edu/python/2022/psets/2/coke/
 """
 
 
-def main():
+def main() -> None:
     amount_due = 50
     while amount_due > 0:
         print(f"Amount Due: {amount_due}")

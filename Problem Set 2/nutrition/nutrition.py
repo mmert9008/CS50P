@@ -16,7 +16,7 @@ https://cs50.harvard.edu/python/2022/psets/2/nutrition/
 """
 
 
-def main():
+def main() -> None:
     fruits = {
         "Apple": 130,
         "Avocado": 50,

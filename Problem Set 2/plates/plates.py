@@ -22,7 +22,7 @@ https://cs50.harvard.edu/python/2022/psets/2/plates/
 """
 
 
-def main():
+def main() -> None:
     plate = input("Plate: ")
     if is_valid(plate):
         print("Valid")
@@ -30,7 +30,7 @@ def main():
         print("Invalid")
 
 
-def is_valid(s):
+def is_valid(s) -> bool:
     if len(s) < 2 or len(s) > 6:
         return False
 

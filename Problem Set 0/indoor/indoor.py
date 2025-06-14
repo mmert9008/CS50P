@@ -9,7 +9,7 @@ https://cs50.harvard.edu/python/2022/psets/0/indoor/
 """
 
 
-def main():
+def main() -> None:
     user_text = input("Please enter text: ")
     print(user_text.lower())
 
